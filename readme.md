@@ -29,7 +29,23 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install required packages
+# - fastapi: The web framework
+# - uvicorn: The ASGI server
+# - sqlalchemy: The ORM for PostgreSQL
+# - pydantic: The validation library
+# - python-jose: The JWT library (used for authentication)
+# - passlib: The password hashing library
+# - python-multipart: The library for parsing multipart/form-data
+# - pymongo: The MongoDB client
+# - redis: The Redis client
+# - pytest: The testing framework
+# - httpx: The library for sending HTTP requests
+# - tenacity: The library for retrying failed operations
 pip install fastapi uvicorn[standard] sqlalchemy pydantic python-jose[cryptography] passlib[bcrypt] python-multipart pymongo redis pytest httpx tenacity
+
+# If using zsh do:
+pip install fastapi uvicorn\[standard\] sqlalchemy pydantic python-jose\[cryptography\] passlib\[bcrypt\] python-multipart pymongo redis pytest httpx tenacity
+
 ```
 
 ### Step 2: Create Initial Project Files
