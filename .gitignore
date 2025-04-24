@@ -9,3 +9,6 @@ __pycache__/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Database file
+sql_app.db
