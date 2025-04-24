@@ -1,4 +1,4 @@
-#!/Users/trejomf/Projects/CSignalPython/FastAPIProject/venv/bin/python3
+#!/Users/trejomf/Projects/FastAPITemplate/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
